@@ -7,13 +7,25 @@
   
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="Git 与Github 介绍1.1 什么是git 有什么用？Git 是一个版本控制管理工具：  保存历史记录(版本管理、版本回退) 多人协同交互  Git 翻译过来就是 饭桶 的意思，老外就是喜欢这样的命名。 1.2 安装和配置 Git 环境(最新版本2.15.1)下载地址：https://git-for-windows.github.io/ 历史版本地址：https://github.com/g">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2018/04/28/github介绍/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Git 与Github 介绍1.1 什么是git 有什么用？Git 是一个版本控制管理工具：  保存历史记录(版本管理、版本回退) 多人协同交互  Git 翻译过来就是 饭桶 的意思，老外就是喜欢这样的命名。 1.2 安装和配置 Git 环境(最新版本2.15.1)下载地址：https://git-for-windows.github.io/ 历史版本地址：https://github.com/g">
 <meta property="og:locale" content="default">
+<meta property="og:image" content="http://yoursite.com/2018/04/28/github介绍/img/20171206124016.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/28/github介绍/img/test.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/28/github介绍/img/old01.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/28/github介绍/img/配置.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/28/github介绍/img/hexo-deployer.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/28/github介绍/img/hexo%20deploy.png">
+<meta property="og:image" content="http://yoursite.com/2018/04/28/github介绍/img/data.png">
+<meta property="og:updated_time" content="2018-04-28T12:29:46.325Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="Git 与Github 介绍1.1 什么是git 有什么用？Git 是一个版本控制管理工具：  保存历史记录(版本管理、版本回退) 多人协同交互  Git 翻译过来就是 饭桶 的意思，老外就是喜欢这样的命名。 1.2 安装和配置 Git 环境(最新版本2.15.1)下载地址：https://git-for-windows.github.io/ 历史版本地址：https://github.com/g">
+<meta name="twitter:image" content="http://yoursite.com/2018/04/28/github介绍/img/20171206124016.png">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -60,9 +72,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-github介绍" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-github介绍" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2018/04/28/github介绍/" class="article-date">
   <time datetime="2018-04-28T12:29:46.325Z" itemprop="datePublished">2018-04-28</time>
@@ -189,317 +199,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-git笔记" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/04/28/git笔记/" class="article-date">
-  <time datetime="2018-04-28T12:29:46.325Z" itemprop="datePublished">2018-04-28</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="GIT"><a href="#GIT" class="headerlink" title="GIT"></a>GIT</h2><h3 id="命令行窗口"><a href="#命令行窗口" class="headerlink" title="命令行窗口"></a>命令行窗口</h3><ul>
-<li>我们平时使用计算机都是通过可视化的界面来对电脑发送命令<ul>
-<li>鼠标右键-&gt;新建-&gt;新建文件夹</li>
-</ul>
-</li>
-<li>命令行窗口也是一种可以向计算机发送命令的途径<ul>
-<li>通过命令的形式告诉计算机我们要做什么</li>
-<li>mkdir 文件夹的名字</li>
-</ul>
-</li>
-<li>开启命令行<ul>
-<li>win + R -&gt; cmd -&gt; enter</li>
-</ul>
-</li>
-<li>常用命令行工具<ul>
-<li>cmd</li>
-<li>powershell</li>
-<li>git bash</li>
-</ul>
-</li>
-</ul>
-<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ul>
-<li>pwd (print working directory) 查看当前所在的目录</li>
-<li>cd (change directory) 切换目录</li>
-<li>ls (list) 查看当前目录下的内容(有兼容问题 可以用dir)</li>
-<li>clear 清屏（有兼容问题  可以用cls）</li>
-<li>mkdir (make directory) 创建目录</li>
-<li>touch 创建文件（有兼容问题 可以用 type nul&gt;文件名）</li>
-<li>cat 查看文件内容 一次性将所有内容输出</li>
-<li>less 查看文件内容 每一次查看部分文件内容<ul>
-<li>回车 一次向下走一行</li>
-<li>空格 一次向下走一页</li>
-<li>b（back）    一次向上走一页</li>
-<li>q（quit）    退出</li>
-</ul>
-</li>
-<li>rm (remove) 删除文件 如 rm index.html、rm -rf blog（删除有内容的文件夹）</li>
-<li>rmdir (remove directory) 删除文件夹 只能删除空文件夹 不常用</li>
-<li>mv (move) 移动文件或重命名</li>
-<li>cp (copy) 复制文件</li>
-<li>echo ‘内容’ &gt; 文件 输出内容到文件 每次输出都是覆盖原有文件内容</li>
-<li>ehco ‘内容’ &gt;&gt; 文件 输出内容到文件 每次输出都是追新内容</li>
-<li>命令的基本组成部分<ul>
-<li>rm(删除命令) -rf(选项)</li>
-</ul>
-</li>
-</ul>
-<h3 id="GIT是什么"><a href="#GIT是什么" class="headerlink" title="GIT是什么"></a>GIT是什么</h3><ul>
-<li>版本控制工具<ul>
-<li>例子：<ul>
-<li>人事专员管理职工信息</li>
-<li>项目功能变更导致的问题</li>
-<li>多人开发一个项目 代码共享时的问题</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="GIT三大区域"><a href="#GIT三大区域" class="headerlink" title="GIT三大区域"></a>GIT三大区域</h3><ul>
-<li>工作目录<ul>
-<li>存放项目代码的目录</li>
-</ul>
-</li>
-<li>暂存区<ul>
-<li>临时存放更改的了文件</li>
-<li>防止工作目录中的代码丢失</li>
-</ul>
-</li>
-<li>代码仓库<ul>
-<li>当开发的功能足以形成一个版本的时候 可以将代码形成版本提交到仓库</li>
-<li>相当于复制了一份当前的代码存储到了仓库中</li>
-</ul>
-</li>
-</ul>
-<h3 id="GIT常用命令"><a href="#GIT常用命令" class="headerlink" title="GIT常用命令"></a>GIT常用命令</h3><ul>
-<li>配置git用户名和邮箱<ul>
-<li>git config –global user.name zhangsan</li>
-<li>git config –global user.email <a href="mailto:demotest123@163.com" target="_blank" rel="noopener">demotest123@163.com</a></li>
-</ul>
-</li>
-<li>查看当前的git配置<ul>
-<li>git config –list</li>
-</ul>
-</li>
-<li>初始化git仓库<ul>
-<li>git init</li>
-</ul>
-</li>
-<li>查看当前仓库的状态 <ul>
-<li>git status</li>
-</ul>
-</li>
-<li>将工作目录中的文件添加到暂存区<ul>
-<li>git add</li>
-</ul>
-</li>
-<li>将暂存区中的代码提交到本地仓库 形成一个版本<ul>
-<li>git commit -m 备注 </li>
-</ul>
-</li>
-<li>查看本地仓库中的历史提交版本<ul>
-<li>git log </li>
-</ul>
-</li>
-<li>将暂存区中的文件恢复到工作目录<ul>
-<li>git rm –cached 文件列表 </li>
-<li>说明:<ul>
-<li>必须保证工作目录中的代码和暂存区中的代码一致</li>
-<li>此时工作目录中有此文件 暂存区中没有此文件 这个文件不被git管理</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>用暂存区中的文件覆盖工作目录中的文件<ul>
-<li>git checkout – 文件列表</li>
-<li>说明：暂存区和工作目录都有此文件 这个文件依然被git管理</li>
-</ul>
-</li>
-<li>回滚到本地仓库中的特定版本并覆盖暂存区和工作目录<ul>
-<li>git reset –hard commitID</li>
-</ul>
-</li>
-<li>查看分支<ul>
-<li>git branch</li>
-</ul>
-</li>
-<li>创建分支<ul>
-<li>git branch 分支名称</li>
-</ul>
-</li>
-<li>切换分支<ul>
-<li>git checkout 分支名称</li>
-</ul>
-</li>
-<li>创建并切换分支<ul>
-<li>git checkout -b 分支名称 </li>
-</ul>
-</li>
-<li>删除分支(如果分支没有被合并不允许删除)<ul>
-<li>git branch -d 分支名称</li>
-</ul>
-</li>
-<li>删除分支(强制删除分支)<ul>
-<li>git branch -D 分支名称</li>
-</ul>
-</li>
-<li>合并分支<ul>
-<li>git merge 来源分支</li>
-</ul>
-</li>
-<li>初始化一个裸露仓库(公共代码仓库)<ul>
-<li>git init –bare </li>
-</ul>
-</li>
-<li>向远程仓库推送代码<ul>
-<li>git push 远程仓库地址 本地分支名称:远程分支名称</li>
-</ul>
-</li>
-<li>从远程仓库中拉取代码(拉取最新版本到本地 开发过程中使用)<ul>
-<li>git pull 远程仓库地址 远程分支名称:本地分支名称</li>
-</ul>
-</li>
-<li>为远程仓库地址创建别名<ul>
-<li>git remote add 别名 远程仓库地址</li>
-</ul>
-</li>
-<li>查看远程地址的详情信息<ul>
-<li>git remote -v</li>
-</ul>
-</li>
-<li>查看当前别名所对应的远程仓库地址<ul>
-<li>git remote show 别名 </li>
-</ul>
-</li>
-<li>删除当前别名及所对应的远程仓库地址<ul>
-<li>git remote remove 别名 </li>
-</ul>
-</li>
-<li>从远程仓库获取代码(拉取所有版本到本地)<ul>
-<li>git clone 远程仓库地址 项目名称</li>
-<li>使用场景：加入到已有项目的开发中 需要先拉取所有版本到本地 再进行开发</li>
-</ul>
-</li>
-<li>冲突修复<ul>
-<li>模拟冲突<ul>
-<li>张三和李四分别克隆代码到本地</li>
-<li>张三改了demo文件并提交到远端仓库</li>
-<li>李四也改了同一个文件</li>
-<li>这时因为张三已经提交了一版代码到远程仓库</li>
-<li>远程仓库的代码要比李四本地的代码新</li>
-<li>所以李四不能直接向远程仓库推送代码</li>
-<li>要先拉去再推送</li>
-<li>此时因为张三和李四改了同一个文件所以产生了冲突</li>
-<li>李四解决冲突并再次提交代码到远程仓库</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>多人协作开发免登录操作<ul>
-<li>ssh-keygen</li>
-</ul>
-</li>
-</ul>
-<h3 id="git使用流程"><a href="#git使用流程" class="headerlink" title="git使用流程"></a>git使用流程</h3><ul>
-<li>1.配置账户信息<ul>
-<li>git config –global user.name 用户名</li>
-<li>git config –global user.email 邮箱地址</li>
-<li>git config –list 查看当前的git配置</li>
-</ul>
-</li>
-<li>2.初始化本地仓库<ul>
-<li>git init</li>
-</ul>
-</li>
-<li>3.查看本地仓库的状态<ul>
-<li>git status</li>
-</ul>
-</li>
-<li>4.将工作目录中的文件提交到暂存区<ul>
-<li>git add 文件列表</li>
-<li>git add . 添加工作目录中所有的文件到暂存区</li>
-</ul>
-</li>
-<li><ol>
-<li>将暂存区中的代码提交到本地仓库</li>
-</ol>
-<ul>
-<li>git commit -m 备注</li>
-<li>git commit -m “first commit”</li>
-</ul>
-</li>
-</ul>
-<h3 id="git-忽略清单"><a href="#git-忽略清单" class="headerlink" title="git 忽略清单"></a>git 忽略清单</h3><ul>
-<li>.gitignore文件</li>
-</ul>
+  
+    <a href="/2018/04/28/git笔记/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title"></div>
+    </a>
+  
+</nav>
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/28/git笔记/" data-id="cjgjd6nrw0001dg6m997pn3pp" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2018/04/28/hello-world/" class="article-date">
-  <time datetime="2018-04-28T12:29:46.325Z" itemprop="datePublished">2018-04-28</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/04/28/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/04/28/hello-world/" data-id="cjgjd6ns00002dg6moe8ugpa5" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-
 
 </section>
         

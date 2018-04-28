@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="GIT命令行窗口 我们平时使用计算机都是通过可视化的界面来对电脑发送命令 鼠标右键-&amp;gt;新建-&amp;gt;新建文件夹   命令行窗口也是一种可以向计算机发送命令的途径 通过命令的形式告诉计算机我们要做什么 mkdir 文件夹的名字   开启命令行 win + R -&amp;gt; cmd -&amp;gt; enter   常用命令行工具 cmd powershell git bash    常用命令 pwd">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/2018/04/28/git笔记/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="GIT命令行窗口 我们平时使用计算机都是通过可视化的界面来对电脑发送命令 鼠标右键-&amp;gt;新建-&amp;gt;新建文件夹   命令行窗口也是一种可以向计算机发送命令的途径 通过命令的形式告诉计算机我们要做什么 mkdir 文件夹的名字   开启命令行 win + R -&amp;gt; cmd -&amp;gt; enter   常用命令行工具 cmd powershell git bash    常用命令 pwd">
+<meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2018-04-28T12:29:46.325Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="GIT命令行窗口 我们平时使用计算机都是通过可视化的界面来对电脑发送命令 鼠标右键-&amp;gt;新建-&amp;gt;新建文件夹   命令行窗口也是一种可以向计算机发送命令的途径 通过命令的形式告诉计算机我们要做什么 mkdir 文件夹的名字   开启命令行 win + R -&amp;gt; cmd -&amp;gt; enter   常用命令行工具 cmd powershell git bash    常用命令 pwd">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-git笔记" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/04/28/git笔记/" class="article-date">
+  <time datetime="2018-04-28T12:29:46.325Z" itemprop="datePublished">2018-04-28</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="GIT"><a href="#GIT" class="headerlink" title="GIT"></a>GIT</h2><h3 id="命令行窗口"><a href="#命令行窗口" class="headerlink" title="命令行窗口"></a>命令行窗口</h3><ul>
+<li>我们平时使用计算机都是通过可视化的界面来对电脑发送命令<ul>
+<li>鼠标右键-&gt;新建-&gt;新建文件夹</li>
+</ul>
+</li>
+<li>命令行窗口也是一种可以向计算机发送命令的途径<ul>
+<li>通过命令的形式告诉计算机我们要做什么</li>
+<li>mkdir 文件夹的名字</li>
+</ul>
+</li>
+<li>开启命令行<ul>
+<li>win + R -&gt; cmd -&gt; enter</li>
+</ul>
+</li>
+<li>常用命令行工具<ul>
+<li>cmd</li>
+<li>powershell</li>
+<li>git bash</li>
+</ul>
+</li>
+</ul>
+<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ul>
+<li>pwd (print working directory) 查看当前所在的目录</li>
+<li>cd (change directory) 切换目录</li>
+<li>ls (list) 查看当前目录下的内容(有兼容问题 可以用dir)</li>
+<li>clear 清屏（有兼容问题  可以用cls）</li>
+<li>mkdir (make directory) 创建目录</li>
+<li>touch 创建文件（有兼容问题 可以用 type nul&gt;文件名）</li>
+<li>cat 查看文件内容 一次性将所有内容输出</li>
+<li>less 查看文件内容 每一次查看部分文件内容<ul>
+<li>回车 一次向下走一行</li>
+<li>空格 一次向下走一页</li>
+<li>b（back）    一次向上走一页</li>
+<li>q（quit）    退出</li>
+</ul>
+</li>
+<li>rm (remove) 删除文件 如 rm index.html、rm -rf blog（删除有内容的文件夹）</li>
+<li>rmdir (remove directory) 删除文件夹 只能删除空文件夹 不常用</li>
+<li>mv (move) 移动文件或重命名</li>
+<li>cp (copy) 复制文件</li>
+<li>echo ‘内容’ &gt; 文件 输出内容到文件 每次输出都是覆盖原有文件内容</li>
+<li>ehco ‘内容’ &gt;&gt; 文件 输出内容到文件 每次输出都是追新内容</li>
+<li>命令的基本组成部分<ul>
+<li>rm(删除命令) -rf(选项)</li>
+</ul>
+</li>
+</ul>
+<h3 id="GIT是什么"><a href="#GIT是什么" class="headerlink" title="GIT是什么"></a>GIT是什么</h3><ul>
+<li>版本控制工具<ul>
+<li>例子：<ul>
+<li>人事专员管理职工信息</li>
+<li>项目功能变更导致的问题</li>
+<li>多人开发一个项目 代码共享时的问题</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="GIT三大区域"><a href="#GIT三大区域" class="headerlink" title="GIT三大区域"></a>GIT三大区域</h3><ul>
+<li>工作目录<ul>
+<li>存放项目代码的目录</li>
+</ul>
+</li>
+<li>暂存区<ul>
+<li>临时存放更改的了文件</li>
+<li>防止工作目录中的代码丢失</li>
+</ul>
+</li>
+<li>代码仓库<ul>
+<li>当开发的功能足以形成一个版本的时候 可以将代码形成版本提交到仓库</li>
+<li>相当于复制了一份当前的代码存储到了仓库中</li>
+</ul>
+</li>
+</ul>
+<h3 id="GIT常用命令"><a href="#GIT常用命令" class="headerlink" title="GIT常用命令"></a>GIT常用命令</h3><ul>
+<li>配置git用户名和邮箱<ul>
+<li>git config –global user.name zhangsan</li>
+<li>git config –global user.email <a href="mailto:demotest123@163.com" target="_blank" rel="noopener">demotest123@163.com</a></li>
+</ul>
+</li>
+<li>查看当前的git配置<ul>
+<li>git config –list</li>
+</ul>
+</li>
+<li>初始化git仓库<ul>
+<li>git init</li>
+</ul>
+</li>
+<li>查看当前仓库的状态 <ul>
+<li>git status</li>
+</ul>
+</li>
+<li>将工作目录中的文件添加到暂存区<ul>
+<li>git add</li>
+</ul>
+</li>
+<li>将暂存区中的代码提交到本地仓库 形成一个版本<ul>
+<li>git commit -m 备注 </li>
+</ul>
+</li>
+<li>查看本地仓库中的历史提交版本<ul>
+<li>git log </li>
+</ul>
+</li>
+<li>将暂存区中的文件恢复到工作目录<ul>
+<li>git rm –cached 文件列表 </li>
+<li>说明:<ul>
+<li>必须保证工作目录中的代码和暂存区中的代码一致</li>
+<li>此时工作目录中有此文件 暂存区中没有此文件 这个文件不被git管理</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>用暂存区中的文件覆盖工作目录中的文件<ul>
+<li>git checkout – 文件列表</li>
+<li>说明：暂存区和工作目录都有此文件 这个文件依然被git管理</li>
+</ul>
+</li>
+<li>回滚到本地仓库中的特定版本并覆盖暂存区和工作目录<ul>
+<li>git reset –hard commitID</li>
+</ul>
+</li>
+<li>查看分支<ul>
+<li>git branch</li>
+</ul>
+</li>
+<li>创建分支<ul>
+<li>git branch 分支名称</li>
+</ul>
+</li>
+<li>切换分支<ul>
+<li>git checkout 分支名称</li>
+</ul>
+</li>
+<li>创建并切换分支<ul>
+<li>git checkout -b 分支名称 </li>
+</ul>
+</li>
+<li>删除分支(如果分支没有被合并不允许删除)<ul>
+<li>git branch -d 分支名称</li>
+</ul>
+</li>
+<li>删除分支(强制删除分支)<ul>
+<li>git branch -D 分支名称</li>
+</ul>
+</li>
+<li>合并分支<ul>
+<li>git merge 来源分支</li>
+</ul>
+</li>
+<li>初始化一个裸露仓库(公共代码仓库)<ul>
+<li>git init –bare </li>
+</ul>
+</li>
+<li>向远程仓库推送代码<ul>
+<li>git push 远程仓库地址 本地分支名称:远程分支名称</li>
+</ul>
+</li>
+<li>从远程仓库中拉取代码(拉取最新版本到本地 开发过程中使用)<ul>
+<li>git pull 远程仓库地址 远程分支名称:本地分支名称</li>
+</ul>
+</li>
+<li>为远程仓库地址创建别名<ul>
+<li>git remote add 别名 远程仓库地址</li>
+</ul>
+</li>
+<li>查看远程地址的详情信息<ul>
+<li>git remote -v</li>
+</ul>
+</li>
+<li>查看当前别名所对应的远程仓库地址<ul>
+<li>git remote show 别名 </li>
+</ul>
+</li>
+<li>删除当前别名及所对应的远程仓库地址<ul>
+<li>git remote remove 别名 </li>
+</ul>
+</li>
+<li>从远程仓库获取代码(拉取所有版本到本地)<ul>
+<li>git clone 远程仓库地址 项目名称</li>
+<li>使用场景：加入到已有项目的开发中 需要先拉取所有版本到本地 再进行开发</li>
+</ul>
+</li>
+<li>冲突修复<ul>
+<li>模拟冲突<ul>
+<li>张三和李四分别克隆代码到本地</li>
+<li>张三改了demo文件并提交到远端仓库</li>
+<li>李四也改了同一个文件</li>
+<li>这时因为张三已经提交了一版代码到远程仓库</li>
+<li>远程仓库的代码要比李四本地的代码新</li>
+<li>所以李四不能直接向远程仓库推送代码</li>
+<li>要先拉去再推送</li>
+<li>此时因为张三和李四改了同一个文件所以产生了冲突</li>
+<li>李四解决冲突并再次提交代码到远程仓库</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>多人协作开发免登录操作<ul>
+<li>ssh-keygen</li>
+</ul>
+</li>
+</ul>
+<h3 id="git使用流程"><a href="#git使用流程" class="headerlink" title="git使用流程"></a>git使用流程</h3><ul>
+<li>1.配置账户信息<ul>
+<li>git config –global user.name 用户名</li>
+<li>git config –global user.email 邮箱地址</li>
+<li>git config –list 查看当前的git配置</li>
+</ul>
+</li>
+<li>2.初始化本地仓库<ul>
+<li>git init</li>
+</ul>
+</li>
+<li>3.查看本地仓库的状态<ul>
+<li>git status</li>
+</ul>
+</li>
+<li>4.将工作目录中的文件提交到暂存区<ul>
+<li>git add 文件列表</li>
+<li>git add . 添加工作目录中所有的文件到暂存区</li>
+</ul>
+</li>
+<li><ol>
+<li>将暂存区中的代码提交到本地仓库</li>
+</ol>
+<ul>
+<li>git commit -m 备注</li>
+<li>git commit -m “first commit”</li>
+</ul>
+</li>
+</ul>
+<h3 id="git-忽略清单"><a href="#git-忽略清单" class="headerlink" title="git 忽略清单"></a>git 忽略清单</h3><ul>
+<li>.gitignore文件</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/04/28/git笔记/" data-id="cjgjd6nrw0001dg6m997pn3pp" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2018/04/28/github介绍/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/04/28/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/04/28/github介绍/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2018/04/28/git笔记/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2018/04/28/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
